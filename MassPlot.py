@@ -10,6 +10,5 @@ plt.loglog(mytable['MASS_EXTRAP'],mytable['VIRMASS_EXTRAP_DECONV'],marker='s',li
 plt.xlabel(r'$M_{\mathrm{lum}}\ (M_{\odot})$') 
 plt.ylabel(r'$M_{\mathrm{vir}}\ (M_{\odot})$')
 plt.title('Virial Mass v Luminous Mass')
-plt.show()
 plt.tight_layout() 	
 plt.savefig('MlumMvir_matplotlib.png')
